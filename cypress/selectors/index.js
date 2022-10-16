@@ -10,7 +10,6 @@ export const SELENIUM_TEST_PAGES = {
     BASIC_JAVASCRIPT_VALIDATION_TEST_PAGE: {
         INPUT_FIELD: '#lteq30',
         INPUT_SUBMIT: 'input.styled-click-button',
-
     },
     BASIC_TEST_PAGE: {
         PAGE_BODY: '.page-body',
