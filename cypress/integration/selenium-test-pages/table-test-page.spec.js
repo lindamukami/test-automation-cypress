@@ -38,7 +38,7 @@ describe('Table test page', () => {
         .eq(1)
         .within(() =>
         cy.get('td').last().invoke('text').should('equal', '12')
-        );
+        )
     });
 
 })
