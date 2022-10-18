@@ -26,5 +26,5 @@ describe ('basic test page', () => {
         .first()
         .invoke('text')
         .should('include','Very simple web pages have a structure illustrated by this page. And elements can have id and class attributes for styling and locating')
-    })
+    });
 });
